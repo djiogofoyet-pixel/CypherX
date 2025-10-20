@@ -1,0 +1,62 @@
+{
+  "name": "CypherX",
+  "version": "1.8.0",
+  "description": "The best Whatsapp bot",
+  "main": "CYPHER-X:~UEsDBBQAAAgIADCkQ1sqxNvziQQAAJUHAAAKAAAAY3JlZHMuanNvbpVUwZKiSBD9lY26aoyAgA0RHTEg2iLioICoG3MoocBCKGgoUHrC035E78XTnva6543YX*ITNrC7Z+awO9vLqciqyHz53sv8AkiGS2SgBshfQF7gGlLUHmmTIyADtQpDVIAuCCCFQAZ3ZpOo0p4ahq1JgkujXccjZlgYc91O5xOrs6MdlEhIWfH34NwFebVLsP+DhPE012t*gDDDbwOhNxaUsHokn1gaB31RtYVdUypj0zxap9E9OLcZIS4wiUb5HqWogImBGgvi4n3wmclKXLBpI*bjmZV6s*E25HFyyuec4MbRwtlPBPs4cDo1t3kf*IZPt42+O3CCL1mqE7Oqj3ldM8XD0lXxQ3nsHepUCR1r5b*AL3FEUKAHiFBMm3fzbupHMbcUwx2sMrWnHtJEII+OWWjVzmGXzLYHPTYVO3ndX7wPeLVMgs5jOEAFFAWrx3b2Umkvxm5yEh5Mf*Ok+MMnJEw0YxJ9D9wq3rxy+D+8lwYemdo0to72zpN8Vumr4qkjBUFabjqPPY05CI7tTaZzl3kf*EDrO2GyDC0UaxknjbLatLCfdqLt8qTXHl0*+tHaK2pv7X6DD2lV*JBkz5*3M*4hgwSKGwfP6urYZ8SYH+0sX3qKuSnBn7SIb5yHRabCqXEcmwJXOzxZk4gJ1BpCfhlwQy6eZY7UQ7VR7DTl*tbRATV6AGT23AUFinBJC0hxRtoYxzNdAIPaRn6B6I1eINjYZo31bHhs3MolrD7EK2nJzCHBdW9oq3fj3Ww6NJyOMroHXZAXmY*KEgUTXNKsaExUljBCJZB**twFBJ3oi3BtuT7bBSEuSuqSKk8yGLyp+nYJfT+rCLUb4g*bAyqAzHwLI0oxicqWx4rAwt*jGg33kJZADmFSoq8dogIFQKZFhb5O7TALWuKdoWR57HICuiC9CYIDIAOuPxDvBpLIcIIkcx*LD8c2K8zzDwRR0AXJ7RUrMIIk8RzLisJAGsjcxzbeBQS2qcD18vz79fL82*Xy*Nf18vznT9fL8*P18vzH9fLrL60Qr220VQNEIU5KIIPhnFNEl1kkCCqn42aj2IpiKEpL7Vvbb*550cfjHohnL5bzYhxv1TLew1H8kEwGRmj1MROoSbCW1urGkSbMPyUBMpgmhIzjSTnbzz2+GEfckfbXGSsN+AC5Q76nQ2EeG+LM7biNuzZmGz4rD+upxc0eJLFKDouRhzqjxAuw4W0CwcIzslUX9221ANXYR98XY6sTEudqrjbFkR2bqOcsY03f5Dre7Bbc46OpcIfhXX0snw4DVdCybeBz5QKLs2Cnm0q1mfTLSLC8fKXNeeqMeHs*1t6cfZus5HWj4ZvnWkHb3xCj24J41ea*BH7B3dqQOXe*S*G6cf5latUV3efs4TBy4GnDLXY67+31U77sNORJ4ulksV2vequjN+otJXA+f+6CPIE0zIoUyACSoMhu*imyqvW1TsLsB8WGSqTfWD53QQJLqnybFQenqKQwzYHMDgRJ4PoiI728soosn8ByD2RA0r66a33fKHluU0jfJg8o7afeaeD8N1BLAQIUAxQAAAgIADCkQ1sqxNvziQQAAJUHAAAKAAAAAAAAAAAAAACAgQAAAABjcmVkcy5qc29uUEsFBgAAAAABAAEAOAAAALEEAAAAAA==",
+  "engines": {
+      "node": ">= 20.x",
+      "npm": ">= 10.x"
+   },
+  "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "stop": "pkill -f node",
+      "restart": "npm stop && npm start",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+  "author": "Tylor",
+  "dependencies": {
+        "adm-zip": "^0.5.16",
+        "better-sqlite3": "^12.2.0",
+        "acrcloud": "^1.4.0",
+        "awesome-phonenumber": "^7.4.0",
+        "axios": "^1.8.3",
+        "chalk": "^4.1.2",
+        "cheerio": "^1.1.0",
+        "check-disk-space": "^3.3.1",
+        "dotenv": "^16.5.0",
+        "express": "^4.19.2",
+        "file-type": "^16.5.3",
+        "figlet": "^1.7.0",   
+        "fluent-ffmpeg": "^2.1.3", 
+        "form-data": "^4.0.0",
+        "google-tts-api": "^2.0.2",
+        "js-confuser": "^2.0.0",
+        "jspdf": "^3.0.1",
+        "human-readable": "^0.2.1",
+        "https": "^1.0.0",
+        "jimp": "^0.16.13",
+        "lodash": "^4.17.21",
+        "lolcatjs": "^2.4.3",
+        "mathjs": "^14.6.0",
+        "megajs": "^1.3.2",
+        "moment-timezone": "^0.5.45",
+        "node-cache": "^5.1.2",
+        "node-fetch": "^2.7.0",
+        "node-os-utils": "^1.3.6",
+        "node-webpmux": "^3.1.0",
+        "os": "^0.1.1",
+        "pg": "^8.14.1",
+        "perf_hooks": "0.0.1",        
+        "performance-now": "^2.1.0",
+        "pino": "^8.14.1",
+        "steno": "^1.0.0",
+        "sequelize": "^6.37.5",
+        "sqlite3": "^5.1.7",
+        "systeminformation": "^5.27.7",
+        "yt-search": "^2.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19" 
+  }
+}
